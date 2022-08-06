@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background-color: #e5e5e5;
+  padding: 24px;
+}
+
+.main-content {
+  background-color: #fff;
+  max-width: 1200px;
+  padding-left: 64px;
+}
+
+img {
+  object-fit: fill;
+  width: 370px;
+  height: 330px;
+  margin-top: 24px;
+}
+
+aside {
+  background-color: #1e2939;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+  
+}
+
+.aside-subtitle {
+  color: #fff;
+  margin-top: 48px;
+  margin-bottom: 8px;
+}
+
+.aside__column {
+  display: flex;
+  flex-direction: column;
+  margin-left: 64px;
+}
+
+.aside-description {
+  color: #fff;
+  font-weight: bold;
+}
+
+.aside__row {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.aside-opacity {
+  color: #fff;
+  opacity: 80%;
+  margin-left: 6px;
+  font-size: 16px;
+}
+
+.skill-list-item {
+  color: #fff;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  list-style-type: color(#fb6d3a);
+}
+
+.link-list-item {
+  color: #595959;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 16px;
+}
+
+a {
+  color: #595959;
+}
+
+a:visited {
+  color: #595959;
+}
+
+.orange {
+  color: #fb6d3a;
+  font-weight: bold;
+}
+
+.small-subtitle {
+  font-weight: bolder;
+  margin: 0;
+  font-size: 14px;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+.small-text {
+  color: #a8a8a8;
+  font-size: 10px;
+  margin-bottom: 12px;
+}
+
+.description {
+  color: #595959;
+  font-size: 12px;
+  line-height: 24px;
+  
+}
+
+.skill-list > li::marker {
+  color: #fb6d3a;
+  font-size: 14px;
+}
+
+.main-skill-list > li::marker {
+  color: #000;
+  font-weight: bolder;
+}
+
+.skill-list {
+  margin-left: 16px;
+}
+
+.title {
+  font-size: 45px;
+  margin-bottom: 24px;
+}
+
+.small-subtitle:first-child {
+  margin-top: 116px;
+}
+
+.subtitle {
+  margin-top: 40px;
+}
+
+.orange:last-child {
+  margin-bottom: 12px;
+}
+
+.subtitle:last-child {
+  margin-bottom: 12px;
+}
+
+.fact-list-item {
+  color: #595959;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 16px;
+}
